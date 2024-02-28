@@ -6,7 +6,8 @@ import cv2
 import time
 
 # Initialize the USB camera
-camera = cv2.VideoCapture(0)  # Use 0 for the default camera, adjust if needed
+camera = cv2.VideoCapture(1)  # Use 0 for the default camera, adjust if needed
+# use 1 on debian ARMv12
 
 while True:
     # Capture an image from the camera
