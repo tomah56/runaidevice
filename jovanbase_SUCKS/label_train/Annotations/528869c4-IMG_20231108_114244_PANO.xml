@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotation>
+<folder>images</folder>
+<filename>528869c4-IMG_20231108_114244_PANO.jpg</filename>
+<source>
+<database>MyDatabase</database>
+<annotation>COCO2017</annotation>
+<image>flickr</image>
+<flickrid>NULL</flickrid>
+<annotator>1</annotator>
+</source>
+<owner>
+<flickrid>NULL</flickrid>
+<name>Label Studio</name>
+</owner>
+<size>
+<width>1440</width>
+<height>1726</height>
+<depth>3</depth>
+</size>
+<segmented>0</segmented>
+<object>
+<name>label</name>
+<pose>Unspecified</pose>
+<truncated>0</truncated>
+<difficult>0</difficult>
+<bndbox>
+<xmin>321</xmin>
+<ymin>1014</ymin>
+<xmax>1063</xmax>
+<ymax>1302</ymax>
+</bndbox>
+</object>
+</annotation>

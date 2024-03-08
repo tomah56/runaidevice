@@ -1,0 +1,7 @@
+names:
+- label
+nc: 1
+test: ./mydata/label_test_yolo/images
+train: ./mydata/label_train_yolo/images
+val: ./mydata/label_valid_yolo/images
+ 
