@@ -1,6 +1,7 @@
 datasets/
 datasets/*
 datasets/mydata/
+datasets/mydatabig/
 
 
 # Byte-compiled / optimized / DLL files
