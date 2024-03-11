@@ -15,15 +15,19 @@ cap = cv2.VideoCapture(camera_index)
 # Set up video capture (adjust resolution as needed)
 # cap.set(3, 640)  # Width
 # cap.set(4, 480)  # Height
+count = 0
 
 while True:
+    count += 1
     _, img = cap.read()  # Read a frame from the webcam
 
+    if count % 2:
+        continue
     # Convert BGR to RGB (required by YOLOv8)
     img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
     # Get YOLOv8 predictions
-    results = model.predict(img)
+    results = model.predict(img, conf=0.35)
 
     # Create an annotator to draw bounding boxes
     annotator = Annotator(img)
